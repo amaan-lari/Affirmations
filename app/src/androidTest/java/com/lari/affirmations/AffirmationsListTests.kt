@@ -21,5 +21,6 @@ class AffirmationsListTests {
     @get:Rule
     val activity = ActivityScenarioRule(MainActivity::class.java)
 
+    @Test
     fun scroll_to_item() {}
 }
